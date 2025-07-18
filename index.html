@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sachin's Store</title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 MST Movie Finder</h1>
+        <div class="search-box">
+            <input id="movieTag" type="text" placeholder="Enter a movie title..." />
+            <button onclick="search()">Search</button>
+        </div>
+
+        <div id="movieInfo" class="movie-card">
+            <img id="poster" alt="Movie Poster" />
+            <div class="movie-details">
+                <h2 id="title"></h2>
+                <p><strong>Year:</strong> <span id="year"></span></p>
+                <p id="plot"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
